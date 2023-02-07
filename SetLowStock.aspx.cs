@@ -19,6 +19,7 @@ public partial class Design_Store_SetLowStock : System.Web.UI.Page
         {
             ViewState["ID"] = Session["ID"].ToString();
             ViewState["DeptLedgerNo"] = Session["DeptLedgerNo"].ToString();
+            //BindCategory();
             BindCategory();
 
         }
